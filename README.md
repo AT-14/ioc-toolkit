@@ -244,19 +244,7 @@ In batch JSON mode (`-i`), the output contains a `metadata` object and an `enric
 
 ## Testing Summary
 
-The toolkit was functionally validated prior to publication. Testing applied during development covered:
-
-- Extraction accuracy: valid and invalid IPv4/IPv6, domains and subdomains, HTTP/HTTPS/FTP/SFTP URLs with ports, paths, and query parameters, email addresses, and MD5/SHA-1/SHA-256 hashes.
-- Deduplication, defanging, and refanging behavior for all supported indicator types.
-- Single-indicator (`-s`) and JSON-batch (`-i`) enrichment modes, including private/loopback IP filtering versus public IP querying.
-- API error handling against mocked VirusTotal and AbuseIPDB responses covering HTTP `200`, `404`, `429`, `401`, `403`, `500` statuses, network timeouts, connection failures, malformed JSON, and missing or invalid response fields — no live API requests or quotas were consumed during automated validation.
-- End-to-end integration from raw text through `ioc_extractor.py` JSON export into `enrichment_tool.py`, across fully populated, empty, and partially populated indicator sets.
-
-## Testing Summary
-
 Tests were applied during development and all passed.
-
----
 
 ## Known Limitations
 
