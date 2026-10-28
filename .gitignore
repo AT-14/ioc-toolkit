@@ -1,0 +1,41 @@
+# Environment variables and API credentials
+.env
+*.env
+!.env.example
+*api_key*
+*secret*
+*.key
+*.pem
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Temporary and investigation output files
+test_output.json
+result.json
+final.json
+*_output.json
+*_enriched.json
+*.tmp
+*.log

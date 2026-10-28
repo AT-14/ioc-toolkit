@@ -1,0 +1,23 @@
+From: "IT Helpdesk Support" <support-alert@vendor-portal-update.com>
+To: "Victoria Chen" <v.chen@global-corp.com>
+Date: Wed, 21 Oct 2026 08:14:22 +0000
+Subject: Action Required: Critical Security Update
+
+Dear User,
+
+Our monitoring system detected an unauthorized sign-in attempt from IP 185.220.101.42 (Secondary proxy: 198.51.100.88). 
+If this was not you, please verify your credentials immediately at our secure portal:
+
+http://executive-board-corp.com.auth-verify-login.net/login?user=v.chen@global-corp.com
+
+Alternatively, download the security patch update directly from:
+https://c2-srv.net/bin/agent.exe
+
+Security Report & File Hashes:
+- MD5: e11092ed90182a15ab836391e5935054
+- SHA-1: 356a192b7913b04c54574d18c28d46e6395428ab
+- SHA-256: a4f8b912c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0
+
+Contact finance-audit-backup@protonmail.com if you experience any access issues.
+
+Target Domain: auth-verify-login.net    
